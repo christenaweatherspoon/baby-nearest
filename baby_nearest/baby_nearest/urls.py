@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+# from djgeojson.views import GeoJSONLayerView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
