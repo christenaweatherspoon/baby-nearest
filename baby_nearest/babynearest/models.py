@@ -9,8 +9,6 @@ class Locations(models.Model):
     zipcode = models.CharField(max_length=300)
     latitute = models.CharField(max_length=300)
     longitude  = models.CharField(max_length=300)
-    photo_url = models.TextField()
-
 
 
 class GeoJson(models.Model):
