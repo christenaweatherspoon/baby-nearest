@@ -11,6 +11,6 @@ class Locations(models.Model):
     longitude  = models.CharField(max_length=300, null=True, blank=True)
     # location = models.ForeignKey(GeoJson, db_index=True)
 
-class GeoJson(models.Model):
-    name = models.CharField(max_length=300, null=True, blank=True)
-    url = models.CharField(max_length=300, null=True, blank=True)
+# class GeoJson(models.Model):
+#     name = models.CharField(max_length=300, null=True, blank=True)
+#     url = models.CharField(max_length=300, null=True, blank=True)
